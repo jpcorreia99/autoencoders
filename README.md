@@ -14,7 +14,7 @@ Conhecimento básico sobre redes neuronais será bastante útil na compreensão 
 - **[Autoencoder simples](#autoencoder-simples)**
 - **[Autoencoder esparso](#autoencoder-esparso)**
 - **[Autoencoder profundo](#autoencoder-profundo)**
-- **[Autoencoder convolucional](#autoencoder-covolucional)**
+- **[Autoencoder convolucional](#autoencoder-convolucional)**
 - **[Aplicações em data denoising](#aplicações-em-data-denoising)**
 - **[Autoencoder variacional](#autoencoder-variacional)**
 
