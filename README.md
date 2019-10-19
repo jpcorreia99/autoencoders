@@ -107,15 +107,17 @@ Como as redes neurais convolucionais se focam nos aspets chave de uma imagem, os
 No código exemplo que se encontra neste repositório, corrompemos propositadamente as imagens dos dígitos desenhados à mão e fornecemo-las ao autoencoder. De seguida demos ao autoencoder as imagens antes de serem corrompidas para que ele treinasse com o propósito de recuperar as imagens originais.
 
 **imagens corrompidas**
+
 ![imagens corrompidas](https://blog.keras.io/img/ae/noisy_digits.png)
 
 
 ## Autoencoder variacional
 
-Vertenta mais moderna e complexa dos autoencoders. Este encoder foca-se nas **variáveis latentes** de uma imagem, isto é, as características que nós não lhe especificamos mas que ele infere através de calculos matemáticos.
+Vertente mais moderna e complexa dos autoencoders. Este encoder foca-se nas **variáveis latentes** de uma imagem, isto é, as características que nós não lhe especificamos mas que ele infere através de calculos matemáticos.
 Um dos modos como faz isso é, ao invés do encoder devolver apenas um array/tensor correspondente aos dados, devolve 2: um tensor da média e um do desvio padrão.
 
 ![V.A.E.](https://miro.medium.com/max/700/1*96ho7qSyW0nKrLvSoZHOtA.png)
+
  Utilizando esta metodologia, o autoencoder aprende quais são as características associadas **com uma certa probabilidade** a cada tipo de dígito. 
  
 Esta característica permite-lhe gerar dígitos novos, bastando ao utilizador fornecer-lhe valores para as variáveis latentes e não as imagens. Um autoencoder variacional é então um **modelo generativo**
