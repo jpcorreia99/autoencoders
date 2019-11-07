@@ -54,9 +54,9 @@ ou, pode-se utilizar o [Google Colaboratory](https://colab.research.google.com/)
 ### Datasets 
 Em todos  os exemplos foi sempre utilizado o dataset **MNIST**. Este dataset contém dígitos desenhados à mão e é considerado quase o *hello world* do mundo da inteligência artificial. Nos nossos exemplos iremos tentar reconstruir estes dígitos 
 
-**O resultado de todos os autoencoders pode ser verificado ao correr o código fornecido neste repositório**
+**O resultado de todos os autoencoders pode ser verificado ao correr os scripts dentro da pasta de cada um dos autoencoders**
 
-Caso se pretenda treinar novamente os modelos basta eliminar os ficheiros .h5
+Caso se pretenda treinar novamente os modelos basta eliminar os ficheiros .h5 e correr de novo o ficheiro .py.
 
 ## Autoencoder simples
  
